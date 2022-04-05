@@ -239,10 +239,7 @@ class ArticleController extends Controller
      *      )
      *   ),
      *
-     * @OA\Response(
-     *      response=422,
-     *      description="Validation failed",
-     *   ),
+     
      * **/
 
     public function likeArticle(Request $request, $id){
